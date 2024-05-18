@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 17, 2024 7:23:37 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.atbx#gedcom_gedcom.py", line 22, in &lt;module&gt;
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\__init__.py", line 679, in GetParameterAsText
+    return gp.getParameterAsText(index)
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 242, in getParameterAsText
+    self._gp.GetParameterAsText(*gp_fixargs(args, True)))
+RuntimeError: Object: Error in getting parameter as text
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (gedcom).</msg><msg code="0" type="3">Failed at Friday, May 17, 2024 7:23:38 PM (Elapsed Time: 1.22 seconds)</msg></messages>
