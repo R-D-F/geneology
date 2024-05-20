@@ -1,7 +1,7 @@
 from gedcom.element.individual import IndividualElement
 from gedcom.parser import Parser
-import googlemaps
 
+from geopy.geocoders import Nominatim
 
 
 # Path to your `.ged` file
@@ -46,7 +46,7 @@ for element in root_child_elements:
 #         print(value)
 #         print()
 
-from geopy.geocoders import Nominatim
+
 geolocator = Nominatim(user_agent="Riley")
 location = geolocator.geocode("hamilton north carolina")
 print(location.address)
