@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, May 20, 2024 9:06:52 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.py", line 41, in &lt;module&gt;
+    main()
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.py", line 18, in main
+    data = get_json_as_list_of_dict("family_dict.jsom")
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.py", line 8, in get_json_as_list_of_dict
+    with open (file_name, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'family_dict.jsom'
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (gedcom).</msg><msg code="0" type="3">Failed at Monday, May 20, 2024 9:06:53 PM (Elapsed Time: 0.48 seconds)</msg></messages>

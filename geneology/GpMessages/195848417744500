@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, May 20, 2024 9:07:54 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.py", line 41, in &lt;module&gt;
+    main()
+  File "C:\Users\rifra\Homework\geneology\geneology\gedcom.py", line 37, in main
+    point = arcpy.Point(entry['birth_place_lat'], entry['birth_place_long'])
+KeyError: 'birth_place_lat'
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (gedcom).</msg><msg code="0" type="3">Failed at Monday, May 20, 2024 9:07:56 PM (Elapsed Time: 2.86 seconds)</msg></messages>
